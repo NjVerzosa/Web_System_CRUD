@@ -1,0 +1,12 @@
+CREATE TABLE freshmen (
+    id INT(6) AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100) NOT NULL,
+    address VARCHAR(200) NOT NULL,
+    username VARCHAR(50) NOT NULL,
+    password VARCHAR(100) NOT NULL,
+    age VARCHAR(100) NOT NULL,
+    gender VARCHAR(200) NOT NULL,
+    birthdate VARCHAR(200) NOT NULL,
+    status VARCHAR(200) NOT NULL,
+    image VARCHAR(200) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
